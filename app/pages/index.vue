@@ -6,7 +6,7 @@ useHead({
   title: "Developer Portfolio — cejaybouck-tech",
   meta: [
     {
-      name: "description",
+      name: "Cejay Boucks Portfolio",
       content:
         "Full‑stack developer skilled in TypeScript, JavaScript, React, Vue, Next.js, Nuxt.js, Tailwind CSS, CSS, Vite, MongoDB, and Go (Golang).",
     },
