@@ -6,6 +6,7 @@ interface Project {
   description: string;
   img: string;
   alt: string;
+  format: string;
   page: string;
   techStack: Tech[];
 }
@@ -15,8 +16,9 @@ export const Projects: Project[] = [
     title: "Redsandsvacations.com",
     href: "https://www.redsandsvacations.com/",
     description: `Next.js + React + Tailwind + MongoDB. Deep integration with Streamline PMS, Cloudinary, and MLS Spark APIs.`,
-    img: "",
-    alt: "",
+    img: "/project-assets/redsands-home-page.png",
+    alt: "Redsands Vacations website landing page",
+    format: "png",
     page: "#redsands",
     techStack: [
       { name: "Next.js", img: "/skill-icons/nextjs.png" },
@@ -32,8 +34,9 @@ export const Projects: Project[] = [
     title: "BuckIslandSC.com",
     href: "https://www.buckislandsc.com/",
     description: `Next.js + React + Tailwind. Integration with Lodgify PMS API for property data and availability.`,
-    img: "",
-    alt: "",
+    img: "/project-assets/buckisland-home-page.png",
+    alt: "buckisland vacation website landing page",
+    format: "png",
     page: "#buckisland",
     techStack: [
       { name: "Next.js", img: "/skill-icons/nextjs.png" },

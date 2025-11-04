@@ -19,6 +19,7 @@ import { Projects } from "~/data/ProjectsData";
         :description="project.description"
         :img="project.img"
         :alt="project.alt"
+        :format="project.format"
         :page="project.page"
         :techStack="project.techStack"
       />
